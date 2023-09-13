@@ -13,7 +13,7 @@ A token is created for each user. Users manage their contacts by logging in.
 
 **Database:** MongoDB
 
-**Packages:** jsonwebtoken, bcrypt, dotenv, express-async-handler, mongoose 
+**Packages:** jsonwebtoken, bcrypt, dotenv, express-async-handler, mongoose, nodemailer
 
 
   
@@ -47,6 +47,14 @@ A token is created for each user. Users manage their contacts by logging in.
 ```
 ```http
   DELETE /api/contact/:id
+```
+#### User Reset Password 
+
+```http
+  POST /api/user/resetpassword
+```
+```http
+  POST /api/user/resetpassword/:token
 ```
 
 
