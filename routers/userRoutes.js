@@ -10,5 +10,9 @@ router.post("/login",userController.loginUser)
 
 router.get("/current",validateToken,userController.getUser)
 
+router.post("/resetpassword",userController.requestReset)
+
+router.post("/resetpassword/:token",userController.postReset)
+
 module.exports=router
 

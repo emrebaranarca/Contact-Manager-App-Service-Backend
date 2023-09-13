@@ -15,6 +15,12 @@ const userSchema=mongoose.Schema(
             type:String,
             required:true
         },
+        resetToken:{
+            type:String
+        },
+        resetTokenExpiration:{
+            type:Date
+        }
     },
     {
         timestamps:true
