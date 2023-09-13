@@ -1,7 +1,7 @@
 
 ## Contact Manager App Service (BACKEND)
 
-A token is created for each user. Users manage their contacts by logging in.
+A token is created for each user. Users manage their contacts by logging in. Authentication and Authorization and Email API for reset password 
 
 
 
